@@ -1,0 +1,17 @@
+<head>
+  <title>flashcard-app</title>
+</head>
+
+<body>
+  {{> section_title}}
+
+  {{> question_and_answer}}
+</body>
+<template name="section_title">
+  <h1>{{page_title}}</h1>
+</template>
+<template name="question_and_answer">
+  <p id="question">Question: {{question}}</p>
+  <button>Show Answer</button>
+  <p id="answer">Answer: {{answer}}</p>
+</template>

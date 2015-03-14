@@ -1,0 +1,8 @@
+TODO Items
+** Mobile export
+*** Android
+** Data Related
+*** How do I get data into the application
+*** Create import script from a text file (mongoimport)
+*** Create export script from mongodb (use mongodump)
+*** Create script that reimports data from export file (use mongorestore)
